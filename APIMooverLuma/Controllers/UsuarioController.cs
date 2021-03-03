@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIMooverLuma.Entidades;
+using APIMooverLuma.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIMooverLuma.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
-	public class ValuesController : ControllerBase
+	public class UsuarioController : ControllerBase
 	{
 		// GET api/values
 		[HttpGet]
@@ -19,9 +21,11 @@ namespace APIMooverLuma.Controllers
 
 		// GET api/values/5
 		[HttpGet("{id}")]
-		public ActionResult<string> Get(int id)
+		public  IEnumerable<UsuarioPersona> Get(int id)
+			
 		{
-			return "value";
+			//var enumerable = new {  };
+			yield return UsuarioRepo.getUsuarioPersona(id);
 		}
 
 		// POST api/values
