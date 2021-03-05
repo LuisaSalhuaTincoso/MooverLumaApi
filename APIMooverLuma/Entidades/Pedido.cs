@@ -9,9 +9,10 @@ namespace APIMooverLuma.Entidades
 	{
 		public long Id { get; set; }
 		public string Estado { get; set; }
-		public DateTime Fecharecojo { get; set; }
-		public DateTime Fechaentrega { get; set; }
+		public string Fecharecojo { get; set; }
+		public string Fechaentrega { get; set; }
 		public string TelefonoEntrega { get; set; }
 		public string DireccionEntrega { get; set; }
+		public string Receptor { get; set; }
 	}
 }

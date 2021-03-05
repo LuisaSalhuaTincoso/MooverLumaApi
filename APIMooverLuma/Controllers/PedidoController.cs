@@ -17,11 +17,10 @@ namespace APIMooverLuma.Controllers
 				// GET: /<controller>/
 
 		[HttpGet("{id}")]
-		public IEnumerable<Pedido> Get(long id)
+		public PedidoDetalle Get(long id)
 
 		{
-			//var enumerable = new {  };
-			yield return PedidoRepo.getPedido(id);
+			 return PedidoRepo.getPedido(id);
 		}
 
 		[HttpGet()]

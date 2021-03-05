@@ -13,11 +13,12 @@ namespace APIMooverLuma.Repositorio
 
 			UsuarioPersona usuario = new UsuarioPersona
 			{
-				Nombre = "Luisa",
-				ApePat = "Salhua",
-				Correo = "lsalhuatincoso@gmail.com",
+				Nombre = "Carlos",
+				ApePat = "Tapia Cornejo",
+				RazonSocial = "Carlos Tapia Cornejo",
+				Correo = "carlitoxtapia@gmail.com",
 				Telefono = "930274827",
-				Direccion = "Av. Francisco Mostajo",
+				Direccion = "Av. Francisco Mostajo 502",
 				Documento = "73228518"
 			};
 			return usuario;

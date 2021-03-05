@@ -21,11 +21,10 @@ namespace APIMooverLuma.Controllers
 
 		// GET api/values/5
 		[HttpGet("{id}")]
-		public  IEnumerable<UsuarioPersona> Get(int id)
+		public  UsuarioPersona Get(int id)
 			
 		{
-			//var enumerable = new {  };
-			yield return UsuarioRepo.getUsuarioPersona(id);
+		   return UsuarioRepo.getUsuarioPersona(id);
 		}
 
 		// POST api/values
