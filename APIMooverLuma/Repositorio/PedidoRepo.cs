@@ -46,7 +46,7 @@ namespace APIMooverLuma.Repositorio
 				Fecharecojo = "21/03/05 13:30",
 				Fechaentrega = "21/03/05 13:30",
 				TelefonoEntrega = "930274827",
-				DireccionEntrega = "Av.Polanco 409",
+				DireccionEntrega = "Av.Independencia 202",
 				Receptor = "Diego Chara"
 			});
 			pedidos.Add(new Pedido
@@ -66,7 +66,7 @@ namespace APIMooverLuma.Repositorio
 				Fecharecojo = "21/01/18 13:30",
 				Fechaentrega = "21/01/18 13:30",
 				TelefonoEntrega = "930274827",
-				DireccionEntrega = "Av.Polanco 409",
+				DireccionEntrega = "Mz N Lt 12 Urbanizacion Peral",
 				Receptor = "Ana Fuente Larco"
 			});
 			pedidos.Add(new Pedido
@@ -86,7 +86,7 @@ namespace APIMooverLuma.Repositorio
 				Fecharecojo = "21/01/18 13:30",
 				Fechaentrega = "21/01/18 13:30",
 				TelefonoEntrega = "930274827",
-				DireccionEntrega = "Av.Polanco 409",
+				DireccionEntrega = "Calle San Martin 929",
 				Receptor = "Ricardo Arjona"
 			});
 			pedidos.Add(new Pedido
@@ -96,7 +96,7 @@ namespace APIMooverLuma.Repositorio
 				Fecharecojo = "21/01/18 13:30",
 				Fechaentrega = "21/01/18 13:30",
 				TelefonoEntrega = "9530274839",
-				DireccionEntrega = "Av.Sucre 403 lT 3 "
+				DireccionEntrega = "Av.Sucre 402 lT 5 "
 			});
 			return pedidos;
 
